@@ -1,0 +1,87 @@
+/* 
+    Document   : main.css
+    Created on : Sep 9, 2010, 2:18:05 PM
+    Author     : dev3
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+body
+{
+    font-family: arial;
+}
+
+
+
+.myForm
+{
+    float: left;
+    
+    border: 1px solid #c4c4c4;
+    padding: 5px;
+}
+
+select
+{
+    width: 320px;
+}
+
+.myForm input
+{
+    width: 300px;
+}
+
+#button
+{
+    /*width: 180px;*/
+}
+
+#header ul
+{
+    width: 700px;
+    height: 50px;
+    border: 1px solid #c4c4c4;
+}
+
+#header ul li
+{
+    list-style: none;
+    float: left;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    border-right: 2px solid #c4c4c4;
+    padding: 5px;
+}
+
+#header ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+}
+
+#header ul li a:hover
+{
+    text-decoration: underline;
+}
+
+#footer
+{
+    position: absolute;
+    bottom: 0px;
+
+    border: 1px solid #c4c4c4;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+}

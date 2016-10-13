@@ -1,0 +1,75 @@
+/* 
+    Document   : cover.css
+    Created on : Feb 22, 2010, 10:50:43 AM
+    Author     : HG
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body
+{
+	padding: 0;
+}
+
+#loginBox
+{
+	position: absolute;
+	top: 30%;
+	left: 38%;
+
+	padding: 10px;
+	text-align: center;
+	/*border: 1px solid;*/
+        background-image: url("testerlogin.jpg");
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 500px;
+}
+
+#passwordForm
+{
+	position: absolute;
+	top: 120px;
+	left: 50px;
+}
+#loginLabel
+{
+	text-align: left;;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: bold;
+	border-style: solid;
+	border-width: 0;
+}
+
+
+
+#loginText
+{
+	right: 0%;
+	border-width: 2px;
+	margin: 2px;
+}
+
+#loginText:focus
+{
+	background: #FFFFB5;
+}
+
+#loginBackground
+{
+	position:absolute;
+	left: 0%;
+	top: 0%;
+	margin: 0 0px 0 0px;
+	padding: 0;
+	width:1250px;
+	height: 690px;
+}
+
+
